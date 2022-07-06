@@ -1,0 +1,107 @@
+/* HERE WEMANIPULATE THE CSS FOR LAYOUTS (see, slidev.layout.XXX) */
+/* :root {
+  // default theme color
+  // can be overrided by uses `themeConfig` option
+  --slidev-theme-primary: #5d8392;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+} */
+
+.slidev-layout.bullet-points {
+  @apply h-full grid;
+  ul {
+    @apply text-2xl;
+  }
+}
+
+:root {}
+
+/* general css here */
+
+html:not(.dark) {
+  /* light mode css here */
+  /* @apply text-black; */
+  @apply text-light-text;
+
+  h1 {
+    @apply text-light-title;
+  }
+  
+}
+
+html.dark {
+  /* dark mode css here */
+  @apply text-dark-text;
+
+  h1 {
+    @apply text-dark-title;
+  }
+  
+}
+
+.slidev-toc-item {
+  @apply light:hover:text-light-accent dark:hover:text-dark-accent transition ease-in-out duration-300
+}
+
+
+
+.slidev-layout {
+  @apply relative h-full;
+
+  h1 {
+    @apply mb-8 font-title font-extrabold;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-title;
+  }
+
+  .prose > ul {
+    list-style: none;
+
+    li {
+      margin-left: 0;
+    }
+  }
+
+  ul.emoji-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding-left: 1rem;
+      text-indent: -0.7rem;
+    }
+
+    li::before {
+      content: '🐧 ';
+    }
+  }
+
+  /* a {
+    @apply text-primary-500 hover:text-secondary-500 dark:text-gray-50 dark:hover:text-secondary-500 transition ease-in-out duration-300;
+  } */
+
+  code {
+    @apply text-secondary-300;
+  }
+}
