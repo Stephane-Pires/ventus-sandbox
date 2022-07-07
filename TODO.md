@@ -1,5 +1,27 @@
 # Things to build for Ventus
 
+## Colors
+
+Warning : isLigth : #C76A15
+Warning : isDark : #DB7D27
+Highlight : isDark : #3F20BA
+Highlight : isLight : #AD9BF6
+Text : light : #FFFFFF
+Text : dark : #000000
+Brand : light : #BBF7D0
+Brand : logo : #86EFAC
+Brand : dark : #16A34A
+Background : dark - light : #374151
+Background : dark - basic : #23272F
+Info : isLight : #149ECA
+Info : isDark : #087EA4
+
+## Font
+
+Font Title : Inter, sans serif
+Font Body : Inter, sans serif
+Font Mono : FiraCode
+
 ## Goals
 
 - Composable
