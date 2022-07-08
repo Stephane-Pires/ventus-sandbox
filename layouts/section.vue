@@ -10,9 +10,9 @@ const props = defineProps<{
     <figure class="w-1/2">
         <div
           :src="$attrs.presenterImage"
-          class="absolute -left-70 -top-15 rounded-full object-cover h-170 w-170 border border-30 border-number z-10"
+          class="absolute -left-70 -top-15 rounded-full object-cover h-170 w-170 border border-30 border-number -z-1"
         >
-        <div class="flex w-full h-full text-31xl items-center justify-end -ml-20 section-number ">
+        <div class="flex w-full h-full text-31xl items-center justify-end -ml-20 section-number">
        {{ props.number }}
         </div>
  
@@ -27,10 +27,10 @@ const props = defineProps<{
 
 <style>
 .border-number {
-    @apply border-light-warning dark:border-dark-warning;
+    @apply border-brand-dark dark:border-brand-logo;
 }
 
 .section-number {
-    @apply text-light-warning dark:text-dark-warning
+    @apply text-brand-dark dark:text-brand-logo
 }
 </style>

@@ -19,16 +19,19 @@ const props = defineProps({
 const now  = useNow()
 const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
 const date = computed(() => now?.value.toLocaleDateString('fr', options))
+
+  const LayoutWithoutDate = [
+      'image-right',
+      'iframe-right',
+      'image-left',
+      'iframe-left',
+  ]
+  
 const LayoutWithoutFooter = [
     'iframe',
+    ...LayoutWithoutDate
 ]
 
-const LayoutWithoutDate = [
-    'image-right',
-    'iframe-right',
-    'image-left',
-    'iframe-left',
-]
 
 const LayoutWithoutName = [
     'image-left',
@@ -39,6 +42,7 @@ const LayoutWithoutPageNumber = [
     'image-right',
     'iframe-right',
 ]
+
 </script>
 
 
@@ -53,30 +57,28 @@ const LayoutWithoutPageNumber = [
     class="absolute bottom-0 left-1 p-2 text-sm w-full"
   > -->
   <footer
-    v-if="!LayoutWithoutFooter.includes($slidev.nav.currentLayout)
-    "
-    class="absolute bottom-4 left-1 p-2 text-sm w-full"
+    v-if="!LayoutWithoutFooter.includes($slidev.nav.currentLayout)"
+    class="absolute bottom-0 p-2 text-sm w-full h-6"
   >
-    <div>
       <div 
-    class="absolute left-1"
+    class="absolute bottom-0"
       v-if="!LayoutWithoutName.includes($slidev.nav.currentLayout)">
         Stéphane Pires
       </div>
       <div 
-      v-if="!LayoutWithoutDate.includes($slidev.nav.currentLayout)" class="absolute left-100"> {{date}}</div>
+      v-if="!LayoutWithoutDate.includes($slidev.nav.currentLayout)" class="absolute bottom-0 left-100"> {{date}}</div>
       <div
       v-if="!LayoutWithoutPageNumber.includes($slidev.nav.currentLayout)"
-        class="border rounded-md px-1 text-xs  absolute right-2"
+        class="text-xs absolute bottom-0 right-2"
       >
         {{ $slidev.nav.currentPage }} / {{ $slidev.nav.total }}
       </div>
-    </div>
   </footer>
 </template>
 
 <style>
 footer {
-  @apply font-mono  text-light-info dark:text-dark-info;
+  @apply font-mono  text-brand-darker dark:text-brand-light bg-brand-light dark:bg-light-text;
 }
+
 </style>

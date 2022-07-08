@@ -6,6 +6,6 @@
 
 <style>
 .accent {
-    @apply text-light-accent dark:text-dark-accent;
+    @apply text-brand-dark dark:text-brand-logo;
 }
 </style>

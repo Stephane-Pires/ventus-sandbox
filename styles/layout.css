@@ -37,7 +37,7 @@ html:not(.dark) {
   @apply text-light-text;
 
   h1 {
-    @apply text-light-title;
+    @apply text-brand-dark;
   }
   
 }
@@ -47,13 +47,13 @@ html.dark {
   @apply text-dark-text;
 
   h1 {
-    @apply text-dark-title;
+    @apply text-brand-logo;
   }
   
 }
 
 .slidev-toc-item {
-  @apply light:hover:text-light-accent dark:hover:text-dark-accent transition ease-in-out duration-300
+  @apply light:hover:text-brand-dark dark:hover:text-brand-logo transition ease-in-out duration-300
 }
 
 

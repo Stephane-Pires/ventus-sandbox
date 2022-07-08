@@ -10,7 +10,9 @@ fonts:
 ---
 
 
-# Slidev Theme Starter <Marker>And the good things</Marker>
+# Slidev Theme Starter 
+
+<!-- <Marker>And the good things</Marker> -->
 
 Presentation slides for developers
 
@@ -146,14 +148,9 @@ layout: bullet-points
 # Bullet Points
 
  * <Warning v-click>C'est vraiment la merde: WARNING</Warning>
- * <Success v-click > C'était vraiment trop bien : SUCCESS</Success>
- * <Fail v-click> C'était vraiment un très  gros echec : FAIL </Fail>
  * <Accent v-click> C'était vraiment trop bien : ACCENT</Accent>
- * <Accent v-click> C'était vraiment trop bien : ACCENT</Accent>
- * <Accent v-click> C'était vraiment trop bien : ACCENT</Accent>
- * <Accent v-click> C'était vraiment trop bien : ACCENT</Accent>
- * <Accent v-click> C'était vraiment trop bien : ACCENT</Accent>
- * <Accent v-click> C'était vraiment trop bien : ACCENT</Accent>
+ * <Highlight v-click> C'était vraiment trop bien : HIGHLIGHT</Highlight>
+ * <Info v-click> C'était vraiment trop bien : INFO</Info>
 
 ---
 layout: bullet-points
@@ -161,7 +158,22 @@ layout: bullet-points
 
 # A note
 
- <Note>C'est un petite <Accent>accent</Accent>  ceci est un <Fail>fail</Fail> et surtour un <Success>SUCCESS</Success> note pour vous dire que Slidev c'est très stylé</Note>
+ <Note>C'est un petite <Accent>ACCENT</Accent>  ceci est un <Highlight>HIGHLIGHT</Highlight> et surtour un <Info>INFO</Info> note pour vous dire que Slidev <Marker><Warning>WARNING</Warning></Marker> c'est très stylé</Note>
+
+---
+layout: card
+---
+
+::title::
+
+<!-- # Layout : Card -->
+
+::card::
+
+<Note>
+Un petit mot à propos de Monkey Island
+<Youtube id='p3mxq44HhnU' height="360" width="480"/>
+</Note>
 
 ---
 layout: center
@@ -268,6 +280,15 @@ layout: quote
 
 ---
 layout: section
+number: 0
+---
+
+# Layout : Section - 0
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+---
+layout: section
 number: 1
 ---
 
@@ -357,21 +378,28 @@ layout: statement
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 ---
+layout: code
+---
+
+# Layout : Code
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+
+---
 layout: center
 ---
- 
 
-<!-- # Layout : Statement -->
 
 <!-- <img src="https://media.giphy.com/media/Pw5CzEs8km6qc/giphy.gif" /> -->
 <!-- <img src="https://media.giphy.com/media/DvtTq0fXVGNeU/giphy.gif" /> -->
 <!-- <img src="https://media.giphy.com/media/LWHarNatG80msNZW4W/giphy.gif" /> -->
 
 <!-- <img src="https://media.giphy.com/media/L3cbOJBBs8KgvU0bbI/giphy.gif" /> -->
-<!-- <img src="https://c.tenor.com/7E8FEfi0BNQAAAAi/zealot-carbot-animations.gif" />
-<img src="https://c.tenor.com/qRLkPZgMrOIAAAAj/anikhai-zagreus.gif" /> -->
+<!-- <img src="https://c.tenor.com/7E8FEfi0BNQAAAAi/zealot-carbot-animations.gif" /> -->
+<!-- <img src="https://c.tenor.com/qRLkPZgMrOIAAAAj/anikhai-zagreus.gif" /> -->
 <!-- <img src="https://c.tenor.com/2K2syw67pf0AAAAi/hades.gif" /> -->
-<!-- <img src="https://c.tenor.com/eZF5jNqx1-QAAAAi/pixel-pixel-art.gif" /> -->
+<img src="https://c.tenor.com/eZF5jNqx1-QAAAAi/pixel-pixel-art.gif" />
 
  <!-- <img src="https://c.tenor.com/_08sfOF0P0gAAAAi/hornet-hollow-knight.gif" /> -->
 
@@ -406,6 +434,6 @@ layout: two-cols
 layout: end
 ---
 
-# Layout: End - All good things come to an end <Marker>End</Marker>
+# Layout: All good things come to an end <Marker>End</Marker>
 
 Thanks you for your attention

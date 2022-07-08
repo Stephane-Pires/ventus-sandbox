@@ -35,32 +35,35 @@ export default defineWindiSetup(() => ({
   theme: {
     colors: {
          // MODIFY THE COLOR NAMES & STRUCTURE
+      brand: {
+        light: '#BBF7D0',
+        logo: '#86EFAC',
+        dark: '#22c55e',
+        darker: '#15803d'
+        },
       dark: {
         background: {
           left: '#23272F',
-          right: '#23272F'
+          right: '#23272F',
         },
         title: '#76c893',
         text: colors.white,
-        warning: '#ff8800',
-        success: '#d9ed92',
-        fail: '#f94144',
+        warning: '#C76A15',
         accent: '#ffc8dd',
-        info: '#149ECA'
+        info: '#149ECA',
+        highlight: '#AD9BF6'
       },
       light: {
         background: {
           
-          left: '#fcd5ce',
-          right: '#f8edeb'
+          left: '#dffce9',
+          right: '#dffce9'
         },
         title: '#2d4781',
         text: colors.black,
-        warning: '#fca311',
-        success: '#2a9d8f',
-        fail: '#ee6c4d',
+        warning: '#DB7D27',
         accent: '#f72585',
-        
+        highlight: '#AD9BF6',
         info: '#087EA4'
       },
     },
