@@ -3,6 +3,10 @@ theme: ./
 title: 'Title : Working on theme'
 lineNumbers: true
 layout: cover
+fonts: 
+  sans: 'Inter'
+  serif: 'Inter'
+  mono: 'Fira Code'
 ---
 
 

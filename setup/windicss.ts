@@ -37,8 +37,8 @@ export default defineWindiSetup(() => ({
          // MODIFY THE COLOR NAMES & STRUCTURE
       dark: {
         background: {
-          left: '#184e77',
-          right: '#1a759f'
+          left: '#23272F',
+          right: '#23272F'
         },
         title: '#76c893',
         text: colors.white,
@@ -46,6 +46,7 @@ export default defineWindiSetup(() => ({
         success: '#d9ed92',
         fail: '#f94144',
         accent: '#ffc8dd',
+        info: '#149ECA'
       },
       light: {
         background: {
@@ -59,7 +60,8 @@ export default defineWindiSetup(() => ({
         success: '#2a9d8f',
         fail: '#ee6c4d',
         accent: '#f72585',
-
+        
+        info: '#087EA4'
       },
     },
     extend: {

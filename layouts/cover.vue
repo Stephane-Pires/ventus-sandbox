@@ -12,7 +12,7 @@
 <style>
 .slidev-layout.intro {
   h1 {
-    @apply text-6xl leading-20 font-title font-extrabold;
+    @apply text-6xl leading-20;
   }
   h1 + p {
     @apply opacity-60 -mt-4 text-2xl;

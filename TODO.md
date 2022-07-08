@@ -95,3 +95,28 @@ Font Mono : FiraCode
 - https://github.com/cedric25/prisma-talk
 - https://github.com/lyqht/intro-to-svg-slides
 - https://github.com/antfu/talks/tree/master/2021-04-29
+
+
+------------
+
+## TODO ALEX
+- Cover
+- Intro
+- Centré
+- End
+- X colonnes 
+
+---------
+
+- Citation/Question
+- Images (Left/Right) (50/50)
+
+------------
+
+- ROTI
+- Feedback
+
+-----------
+
+- Benchmark teintes des documentations web (React/Redux/NodeJS/Etc..)
+

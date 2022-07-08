@@ -12,7 +12,7 @@
     border-radius: var(--geist-radius);
     max-width: max-content;
     padding: 3px 12px;
-    @apply text-sm;
+    @apply text-sm font-mono;
 }
 .note > strong {
     margin-right: 0.5rem;

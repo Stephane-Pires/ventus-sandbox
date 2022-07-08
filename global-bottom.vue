@@ -64,7 +64,7 @@ const LayoutWithoutPageNumber = [
         Stéphane Pires
       </div>
       <div 
-      v-if="!LayoutWithoutDate.includes($slidev.nav.currentLayout)" class="absolute left-108"> {{date}}</div>
+      v-if="!LayoutWithoutDate.includes($slidev.nav.currentLayout)" class="absolute left-100"> {{date}}</div>
       <div
       v-if="!LayoutWithoutPageNumber.includes($slidev.nav.currentLayout)"
         class="border rounded-md px-1 text-xs  absolute right-2"
@@ -77,6 +77,6 @@ const LayoutWithoutPageNumber = [
 
 <style>
 footer {
-  font-family: 'Roboto Light', sans-serif;
+  @apply font-mono  text-light-info dark:text-dark-info;
 }
 </style>

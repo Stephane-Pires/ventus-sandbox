@@ -1,11 +1,9 @@
 /* HERE WEMANIPULATE THE CSS FOR LAYOUTS (see, slidev.layout.XXX) */
-/* :root {
-  // default theme color
-  // can be overrided by uses `themeConfig` option
-  --slidev-theme-primary: #5d8392;
+ :root {
+  @apply font-sans;
 }
 
-.slidev-layout.cover,
+/* .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
 
@@ -20,7 +18,7 @@
   p + h2, ul + h2, table + h2 {
     @apply mt-10;
   }
-} */
+}  */
 
 .slidev-layout.bullet-points {
   @apply h-full grid;
@@ -64,14 +62,14 @@ html.dark {
   @apply relative h-full;
 
   h1 {
-    @apply mb-8 font-title font-extrabold;
+    @apply mb-8 font-sans font-bold;
   }
 
   h1,
   h2,
   h3,
   h4 {
-    @apply font-title;
+    @apply font-sans;
   }
 
   .prose > ul {
@@ -80,6 +78,10 @@ html.dark {
     li {
       margin-left: 0;
     }
+  }
+
+  p {
+    @apply font-sans;
   }
 
   ul.emoji-list {
