@@ -51,7 +51,6 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
-
 ---
 layout: intro
 presenterImage: 'images/avatar.JPG'
@@ -142,7 +141,7 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-layout: bullet-points
+layout: center
 ---
 
 # Bullet Points
@@ -152,8 +151,23 @@ layout: bullet-points
  * <Highlight v-click> C'était vraiment trop bien : HIGHLIGHT</Highlight>
  * <Info v-click> C'était vraiment trop bien : INFO</Info>
 
+
 ---
-layout: bullet-points
+layout: quote
+---
+
+# Layout : Quote
+
+::quote::
+
+“You know, being Caroline taught me a valuable lesson. I thought you were my greatest enemy, when all along you were my best friend. The surge of emotion that shot through me when I saved your life taught me an even more valuable lesson – where Caroline lives in my brain.” 
+
+
+::author::
+GLaDOS, Portal2
+
+---
+layout: center
 ---
 
 # A note
@@ -164,16 +178,27 @@ layout: bullet-points
 layout: card
 ---
 
+<!-- # Layout : Card -->
+
 ::title::
 
 <!-- # Layout : Card -->
 
+
 ::card::
 
+# Shitty idea
+
+<v-clicks>
+
 <Note>
-Un petit mot à propos de Monkey Island
+Un petit mot à propos de <Accent>Monkey Island</Accent>
 <Youtube id='p3mxq44HhnU' height="360" width="480"/>
 </Note>
+
+* Conclusion c'est vraiment trop bien
+
+</v-clicks>
 
 ---
 layout: center
@@ -267,14 +292,6 @@ layout: none
 ---
 
 # Layout : none
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
----
-layout: quote
----
-
-# Layout : Quote
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
@@ -376,15 +393,6 @@ layout: statement
 # Layout : Statement
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
----
-layout: code
----
-
-# Layout : Code
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
 
 ---
 layout: center

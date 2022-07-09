@@ -67,13 +67,13 @@ export default defineWindiSetup(() => ({
         info: '#087EA4'
       },
     },
-    extend: {
-      fontFamily: {
-        sans: ['Nunito', 'system-ui', 'sans-serif'],
-        title: ['Gilroy', 'Georgia', 'serif'],
-        mono: ['Fira Code', 'ui-monospace'],
-      },
-    }
+    // extend: {
+    //   fontFamily: {
+    //     sans: ['Nunito', 'system-ui', 'sans-serif'],
+    //     title: ['Gilroy', 'Georgia', 'serif'],
+    //     mono: ['Fira Code', 'ui-monospace'],
+    //   },
+    // }
   },
   plugins: [
     aspectRatioPlugin,
