@@ -1,20 +1,6 @@
-s<script setup lang="ts">
-import { defineProps, computed } from 'vue'
+<script setup lang="ts">
+import { computed } from 'vue'
 import { useNow } from '@vueuse/core'
-const props = defineProps({
-  eventLogo: {
-    type: String,
-  },
-  eventUrl: {
-    type: String,
-  },
-  twitter: {
-    type: String,
-  },
-  twitterUrl: {
-    type: String,
-  },
-})
 
 const now  = useNow()
 const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
@@ -48,14 +34,6 @@ const LayoutWithoutPageNumber = [
 
 
 <template>
-  <!-- <footer
-    v-if="
-      $slidev.nav.currentLayout !== 'cover' &&
-      $slidev.nav.currentPage !== 2 &&
-      $slidev.nav.currentPage !== $slidev.nav.total + 1
-    "
-    class="absolute bottom-0 left-1 p-2 text-sm w-full"
-  > -->
   <footer
     v-if="!LayoutWithoutFooter.includes($slidev.nav.currentLayout)"
     class="absolute bottom-0 p-2 text-sm w-full h-6"
@@ -76,7 +54,7 @@ const LayoutWithoutPageNumber = [
   </footer>
 </template>
 
-<style>
+<style scoped>
 footer {
   @apply font-mono  text-brand-darker dark:text-brand-light bg-brand-light dark:bg-light-text;
 }

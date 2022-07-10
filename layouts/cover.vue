@@ -17,8 +17,5 @@
   h1 + p {
     @apply opacity-60 -mt-4 text-2xl;
   }
-  a {
-    @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
-  }
 }
 </style>

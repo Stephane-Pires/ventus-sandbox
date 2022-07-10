@@ -1,39 +1,7 @@
-/* HERE WEMANIPULATE THE CSS FOR LAYOUTS (see, slidev.layout.XXX) */
- :root {
-  @apply font-sans;
-}
-
-/* .slidev-layout.cover,
-.slidev-layout.intro {
-  @apply h-full grid;
-
-  h1 {
-    @apply text-6xl leading-20;
-  }
-
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
-  }
-
-  p + h2, ul + h2, table + h2 {
-    @apply mt-10;
-  }
-}  */
-
-.slidev-layout.bullet-points {
-  @apply h-full grid;
-  ul {
-    @apply text-2xl;
-  }
-}
-
-:root {}
-
 /* general css here */
 
 html:not(.dark) {
   /* light mode css here */
-  /* @apply text-black; */
   @apply text-light-text;
 
   h1 {
@@ -61,44 +29,7 @@ html.dark {
   @apply relative h-full;
 
   h1 {
-    @apply mb-8 font-sans font-bold;
+    @apply mb-8 font-bold;
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    @apply font-sans;
-  }
-
-  .prose > ul {
-    list-style: none;
-
-    li {
-      margin-left: 0;
-    }
-  }
-
-  p {
-    @apply font-sans;
-  }
-
-  ul.emoji-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-      padding-left: 1rem;
-      text-indent: -0.7rem;
-    }
-
-    li::before {
-      content: '🐧 ';
-    }
-  }
-
-  code {
-    @apply text-secondary-300;
-  }
 }

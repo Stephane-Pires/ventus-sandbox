@@ -8,10 +8,7 @@
 
 <style scoped>
 .note {
-    /* border: 0.5px solid grey; */
-    /* border-radius: var(--geist-radius); */
     max-width: max-content;
-    /* padding: 3px 12px; */
     @apply text-sm font-mono;
 }
 .note > strong {

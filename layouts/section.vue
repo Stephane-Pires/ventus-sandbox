@@ -25,7 +25,7 @@ const props = defineProps<{
   </div>
 </template>
 
-<style>
+<style scoped>
 .border-number {
     @apply border-brand-dark dark:border-brand-logo;
 }

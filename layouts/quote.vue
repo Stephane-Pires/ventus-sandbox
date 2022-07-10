@@ -1,5 +1,5 @@
 <template>
-  <div class="layout quote center h-full grid place-content-center">
+  <div class="quote-layout  center h-full grid place-content-center">
     <div class="text-center">
       <slot />
     </div>
@@ -12,8 +12,8 @@
   </div>
 </template>
 
-<style>
-.layout {
+<style >
+.quote-layout {
   @apply px-14 py-10 text-[1.1rem] h-full;
     h1 {
     @apply text-4xl mb-8 font-sans font-bold;
