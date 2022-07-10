@@ -9,7 +9,6 @@ const props = defineProps<{
   <div class="grid grid-cols-2 w-full h-full">
     <figure class="w-1/2">
         <div
-          :src="$attrs.presenterImage"
           class="absolute -left-70 -top-15 rounded-full object-cover h-170 w-170 border border-30 border-number -z-1"
         >
         <div class="flex w-full h-full text-31xl items-center justify-end -ml-20 section-number">
