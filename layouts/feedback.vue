@@ -1,10 +1,7 @@
 <template>
-  <div class="slidev-layout feedback center">
-    <h1>Feedback</h1>
-  
-  <Youtube id="OJy6bJ_RxXg" height="400" width="600"/>
-
-  
+  <div class="slidev-layout feedback">
+    <h1 class="absolute px-15 py-10">Feedback</h1>
+    <img  src="images/ticket-gift-empty.png"/>
   </div>
 </template>
 

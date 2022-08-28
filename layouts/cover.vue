@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .slidev-layout.intro {
   h1 {
     @apply text-6xl leading-20;
