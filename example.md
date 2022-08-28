@@ -16,10 +16,6 @@ src: ./slides/table-of-content.md
 ---
 
 ---
-src: ./slides/what-is-slidev.md
----
-
----
 layout: intro
 src: ./slides/my-intro.md
 presenterImage: 'images/avatar.JPG'
@@ -107,11 +103,6 @@ number: 0
 layout: section
 src: ./slides/sections/1.md
 number: 1
----
-
----
-layout: statement
-src: ./slides/statement.md
 ---
 
 ---
