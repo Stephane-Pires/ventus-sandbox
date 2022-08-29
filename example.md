@@ -1,9 +1,10 @@
 ---
 theme: ./
-title: 'Title : Working on theme'
+title: 'Ventus'
 lineNumbers: true
 layout: cover
 src: ./slides/cover.md
+favicon: 'images/favicon.png'
 fonts: 
   sans: 'Inter'
   serif: 'Inter'
