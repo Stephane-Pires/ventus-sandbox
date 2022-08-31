@@ -1,6 +1,4 @@
-# A note
+# Component : Note
 
-<div class="my-50 mx-25">
-<Note>C'est un petite <Variant type="accent">ACCENT</Variant>  ceci est un <Variant type="highlight">HIGHLIGHT</Variant> et surtout un <Variant type="info">INFO</Variant> note pour vous dire que Slidev c'est très stylé</Note>
-</div>
+<Note>If you want to add a little note to your slide, usufull under a card, a code block</Note>
  

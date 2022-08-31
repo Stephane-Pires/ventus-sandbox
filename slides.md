@@ -18,9 +18,20 @@ src: ./slides/table-of-content.md
 ---
 
 ---
-layout: intro
-src: ./slides/my-intro.md
-presenterImage: 'images/avatar.JPG'
+layout: section
+src: ./slides/sections/0.md
+number: 0
+---
+
+
+---
+layout: center
+src: ./slides/without-text.md
+---
+
+---
+layout: center
+src: ./slides/with-text.md
 ---
 
 ---
@@ -29,7 +40,8 @@ url: http://localhost:3000
 ---
 
 ---
-src: ./slides/navigation.md
+layout: center
+src: ./slides/variants.md
 ---
 
 ---
@@ -38,20 +50,23 @@ src: ./slides/card.md
 ---
 
 ---
+layout: center
+src: ./slides/note.md
+---
+
+
+---
 layout: image-right
-src: ./slides/code.md
+src: ./slides/gif.md
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
 ---
-layout: center
-src: ./slides/bullet-points.md
+layout: section
+src: ./slides/sections/1.md
+number: 1
 ---
 
----
-layout: center
-src: ./slides/monkey-island.md
----
 
 ---
 layout: default
@@ -59,23 +74,19 @@ src: ./slides/default.md
 ---
 
 ---
-layout: fact
-src: ./slides/fact.md
+layout: cover
+src: ./slides/cover-layout.md
 ---
 
 ---
-layout: full
-src: ./slides/full.md
+layout: intro
+src: ./slides/my-intro.md
+presenterImage: 'images/batman.jpg'
 ---
 
 ---
 layout: quote
 src: ./slides/quote.md
----
-
----
-layout: center
-src: ./slides/note.md
 ---
 
 ---
@@ -89,47 +100,15 @@ src: ./slides/code-two.md
 ---
 
 ---
-layout: code
-src: ./slides/code-three.md
----
-
----
-layout: code
-src: ./slides/monaco.md
----
-
----
-layout: code
-src: ./slides/monaco-two.md
----
-
----
-layout: code
-src: ./slides/monaco-three.md
----
-
----
 layout: iframe-left
 src: ./slides/iframe-left.md
-url: https://windicss.org/utilities/backgrounds/background.html
+url: https://wikipedia.org/wiki/Batman
 ---
 
 ---
 layout: image-right
 src: ./slides/image-right.md
-image: ./images/cat.jpg
----
-
----
-layout: section
-src: ./slides/sections/0.md
-number: 0
----
-
----
-layout: section
-src: ./slides/sections/1.md
-number: 1
+image: ./images/batman-image.jpg
 ---
 
 ---

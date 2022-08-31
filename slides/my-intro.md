@@ -1,5 +1,5 @@
-# Me, Myself & I ❤️
+# Layout Intro : Me, Myself & I ❤️
 
-* Blabla je raconte ma vie 🚀
-* Blabla la vie de mon chat  📦 
-* Blabla vive mon caddy 🛒
+* I'm a rich billionaire 💲
+* Who's job is to arrest bad people 💀 
+* My symbol is a bat 🦇
