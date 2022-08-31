@@ -2,6 +2,7 @@
 theme: ./
 title: 'Ventus'
 lineNumbers: true
+monaco: true
 layout: cover
 src: ./slides/cover.md
 favicon: 'images/favicon.png'
