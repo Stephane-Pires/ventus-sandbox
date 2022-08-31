@@ -78,8 +78,33 @@ src: ./slides/note.md
 ---
 
 ---
-layout: center
+layout: code
+src: ./slides/code.md
+---
+
+---
+layout: code
+src: ./slides/code-two.md
+---
+
+---
+layout: code
+src: ./slides/code-three.md
+---
+
+---
+layout: code
 src: ./slides/monaco.md
+---
+
+---
+layout: code
+src: ./slides/monaco-two.md
+---
+
+---
+layout: code
+src: ./slides/monaco-three.md
 ---
 
 ---

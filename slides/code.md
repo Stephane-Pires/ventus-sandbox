@@ -1,8 +1,5 @@
-# Code
 
-Use code snippets and get the highlighting directly!
-
-```ts {1-3|4-8}
+```ts {height: '450px'}
 interface User {
   id: number
   firstName: string
@@ -15,4 +12,11 @@ function updateUser(id: number, update: Partial<User>) {
   const newUser = { ...user, ...update }
   saveUser(id, newUser)
 }
+
+function updateUser(id: number, update: Partial<User>) {
+  const user = getUser(id)
+  const newUser = { ...user, ...update }
+  saveUser(id, newUser)
+}
+
 ```
