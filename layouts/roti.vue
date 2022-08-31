@@ -8,11 +8,11 @@
       <Variant type="highlight">I</Variant>nvested
     </h1>
     <div class="-mt-15 flex flex-row w-full justify-between content-center items-end">
-    <img v-click class="rounded-xl" src="/images/plant-1.png" />
-    <img v-click class="rounded-xl" src="/images/plant-2.png" />
-    <img v-click class="rounded-xl" src="/images/plant-3.png" />
-    <img v-click class="rounded-xl" src="/images/plant-4.png" />
-    <img v-click class="rounded-xl" src="/images/plant-5.png" />
+    <img class="rounded-xl" src="/images/plant-1.png" />
+    <img class="rounded-xl" src="/images/plant-2.png" />
+    <img class="rounded-xl" src="/images/plant-3.png" />
+    <img class="rounded-xl" src="/images/plant-4.png" />
+    <img class="rounded-xl" src="/images/plant-5.png" />
     </div>
   </div>
 </template>

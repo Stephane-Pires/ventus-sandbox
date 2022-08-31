@@ -1,6 +1,8 @@
 ---
 theme: ./
 title: 'Ventus'
+presenterName: "Batman"
+dateFormat: "fr"
 lineNumbers: true
 monaco: true
 layout: cover
@@ -35,11 +37,6 @@ src: ./slides/with-text.md
 ---
 
 ---
-layout: iframe
-url: http://localhost:3000
----
-
----
 layout: center
 src: ./slides/variants.md
 ---
@@ -52,13 +49,6 @@ src: ./slides/card.md
 ---
 layout: center
 src: ./slides/note.md
----
-
-
----
-layout: image-right
-src: ./slides/gif.md
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
 ---
@@ -109,16 +99,6 @@ url: https://wikipedia.org/wiki/Batman
 layout: image-right
 src: ./slides/image-right.md
 image: ./images/batman-image.jpg
----
-
----
-layout: center
-src: ./slides/gif.md
----
-
----
-layout: two-cols
-src: ./slides/two-cols.md
 ---
 
 ---

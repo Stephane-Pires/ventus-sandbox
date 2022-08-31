@@ -9,7 +9,7 @@ const props = defineProps<{ class?: string; url: string }>()
     <div class="h-full">
       <iframe id="frame" class="w-full h-full" :src="url" />
     </div>
-    <div class="slidev-layout default" :class="props.class">
+    <div class="slidev-layout default flex flex-col justify-evenly" :class="props.class">
       <slot />
     </div>
   </div>

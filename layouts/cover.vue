@@ -1,7 +1,7 @@
 <template>
   <div class="slidev-layout intro grid">
     <!-- <LayoutHeader /> -->
-    <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
+    <CornerCurves class="absolute -left-5 -top-5 transform rotate-90" />
     <div class="flex flex-col justify-center text-center">
       <slot />
     </div>
@@ -9,10 +9,10 @@
   </div>
 </template>
 
-<style scoped>
+<style >
 .slidev-layout.intro {
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-6xl leading-20 uppercase;
   }
   h1 + p {
     @apply opacity-60 -mt-4 text-2xl;

@@ -47,7 +47,7 @@ const props = defineProps(
   @apply border-dark-info border-5 bg-light-info p-6 bg-opacity-15 border-opacity-15;
   
   h1 {
-    @apply text-2xl text-dark-info dark:text-light-info mb-4
+    @apply text-2xl text-light-info dark:text-dark-info mb-4
   }
   }
 </style>

@@ -5,7 +5,7 @@
 
 - Re-usable
 - Clean (as much as possible)
-- Dark/Light Mode
+- Dark/Light Mode 
 
 ## Layout
 
@@ -13,12 +13,12 @@
 
 - Intro (Me, MySelf and I) ✓
 - Part Switching / Title ✓
-- Code Slide (Center with title)
+- Code Slide (Center with title) ✔
 - Bullet points slides (One or Two Col)
 - Image (left or right) ✓
 - Statements ✓
-- Conclusion 
-- ROTI (Return On Time Invested)
+- Conclusion ✔
+- ROTI (Return On Time Invested) ✔
 
 ------------
 
@@ -36,10 +36,10 @@
 
 ------------
 
-- ROTI
-- Feedback
+- ROTI ✔
+- Feedback ✔
 
 -----------
 
-- Benchmark teintes des documentations web (React/Redux/NodeJS/Etc..)
+- Benchmark teintes des documentations web (React/Redux/NodeJS/Etc..) ✔
 

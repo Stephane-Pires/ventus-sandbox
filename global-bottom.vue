@@ -4,7 +4,7 @@ import { useNow } from '@vueuse/core'
 
 const now  = useNow()
 const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
-const date = computed(() => now?.value.toLocaleDateString('fr', options))
+const date = computed(() => now?.value.toLocaleDateString($slidev.configs.dateFormat, options))
 
   const LayoutWithoutDate = [
       'image-right',
@@ -41,7 +41,10 @@ const LayoutWithoutPageNumber = [
       <div 
     class="absolute bottom-0"
       v-if="!LayoutWithoutName.includes($slidev.nav.currentLayout)">
-        Stéphane Pires
+      
+
+        {{ $slidev.configs.presenterName }}
+      
       </div>
       <div 
       v-if="!LayoutWithoutDate.includes($slidev.nav.currentLayout)" class="absolute bottom-0 left-100"> {{date}}</div>
