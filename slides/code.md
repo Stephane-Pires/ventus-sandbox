@@ -1,5 +1,5 @@
 
-```ts
+```ts {all|2|45-55|9|all} {maxHeight:'440px'}
 
 // create a graph class
 class Graph {

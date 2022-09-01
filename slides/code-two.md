@@ -1,5 +1,5 @@
 
-```ts
+```ts {maxHeight: '440px'}
 // program to generate fibonacci series up to n terms
 
 // take input from the user
@@ -18,7 +18,7 @@ for (let i = 1; i <= number; i++) {
 ```
 
 
-```ts
+```ts {maxHeight: '440px'}
 // program to generate fibonacci series up to a certain number
 
 // take input from the user
