@@ -7,6 +7,9 @@ const props = defineProps<{
 
 <template>
   <div class="grid grid-cols-2 w-full h-full">
+    <WindTop  class="absolute "/>
+    <WindMiddle class="absolute" />
+
     <figure class="w-1/2">
         <div
           class="absolute -left-70 -top-15 rounded-full object-cover h-170 w-170 border border-30 border-number -z-1"

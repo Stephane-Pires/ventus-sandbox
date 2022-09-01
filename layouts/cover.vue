@@ -2,6 +2,8 @@
   <div class="slidev-layout intro grid">
     <!-- <LayoutHeader /> -->
     <CornerCurves class="absolute -left-5 -top-5 transform rotate-90" />
+     <WindBottom  class="absolute "/>
+    
     <div class="flex flex-col justify-center text-center">
       <slot />
     </div>
