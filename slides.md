@@ -25,7 +25,6 @@ src: ./slides/sections/0.md
 number: 0
 ---
 
-
 ---
 layout: center
 src: ./slides/without-text.md
@@ -87,6 +86,11 @@ src: ./slides/code.md
 ---
 layout: code
 src: ./slides/code-two.md
+---
+
+---
+layout: punch
+src: ./slides/punch.md
 ---
 
 ---
