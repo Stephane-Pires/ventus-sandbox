@@ -1,6 +1,7 @@
 ::quote::
 
-A Layout <Variant type="info">with</Variant>, a quote.
+Kites rise <Variant type="info">highest</Variant> against the wind - not with it.
+
 
 ::author::
-Bruce Wayne, Batman
+Winston Churchill

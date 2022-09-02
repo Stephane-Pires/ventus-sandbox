@@ -1,5 +1,4 @@
 # Layout Intro : Me, Myself & I ❤️
 
-* I'm a rich billionaire 💲
-* Who's job is to arrest thugs  💀 
-* My symbol is a bat 🦇
+* To present yourself, or the subject in key points
+* With a nice image 

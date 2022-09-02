@@ -1,7 +1,7 @@
 ---
 theme: ./
 title: 'Ventus'
-presenterName: "Batman"
+presenterName: "Zephyr"
 dateFormat: "fr"
 lineNumbers: true
 monaco: true
@@ -70,7 +70,7 @@ src: ./slides/cover-layout.md
 ---
 layout: intro
 src: ./slides/my-intro.md
-presenterImage: 'images/batman.jpg'
+presenterImage: 'images/giphy.webp'
 ---
 
 ---
@@ -96,13 +96,13 @@ src: ./slides/punch.md
 ---
 layout: iframe-left
 src: ./slides/iframe-left.md
-url: https://wikipedia.org/wiki/Batman
+url: https://en.wikipedia.org/wiki/Anemoi
 ---
 
 ---
 layout: image-right
 src: ./slides/image-right.md
-image: ./images/batman-image.jpg
+image: ./images/picture-tornado.jpeg
 ---
 
 ---
