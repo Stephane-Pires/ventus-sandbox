@@ -25,7 +25,8 @@
   "devDependencies": {
     "@iconify-json/wi": "^1.1.2",
     "@slidev/cli": "^0.35.5",
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.0",
+    "playwright-chromium": "^1.25.1"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
