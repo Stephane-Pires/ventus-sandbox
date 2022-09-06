@@ -2,8 +2,9 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-ventus-sandbox?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-ventus-sandbox)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A Tornado 🌪 theme for [Slidev](https://github.com/slidevjs/slidev).
 
+Live demo: [here](https://stephane-pires.github.io/ventus-sandbox)
 <!--
   Learn more about how to write a theme:
   https://sli.dev/themes/write-a-theme.html
@@ -33,46 +34,11 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
-
-## Contributing
-
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
-
-
-A Tornado 🌪 theme for [Slidev](https://github.com/slidevjs/slidev).
-
-Live demo: [here](https://stephane-pires.github.io/ventus-sandbox)
-
-## Install
-
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
-
-<pre><code>---
-theme: <b>ventus</b>
----</code></pre>
-
-Learn more about [how to use a theme](https://sli.dev/themes/use).
-
-## Layouts
-
-This theme provides the following layouts:
-
 ### Footer
 
-But you can add this properties to add header and footer
+You can configure the presenter name and language used to format the date by configuring thoses `props` at the frontmatter
 
-```
+```markdown
 ---
 // at the frontmatter
   presenterName: "name-of-the-presenter" 
@@ -81,7 +47,7 @@ But you can add this properties to add header and footer
 ```
 
 
-### Intro `intro`
+### Intro : `intro`
 
 Usage:
 
@@ -99,7 +65,7 @@ Dark                       | Light
 
 ---
 
-### Presenter `presenter`
+### Presenter : `presenter`
 
 Usage:
 
@@ -119,7 +85,7 @@ Dark                       | Light
 
 ---
 
-### Section `section`
+### Section : `section`
 
 Usage:
 
@@ -140,7 +106,7 @@ Dark                       | Light
 ---
 
 
-### Code `code`
+### Code : `code`
 
 Usage:
 
@@ -158,7 +124,7 @@ Dark                       | Light
 ![codeDark](./screenshots/dark/layouts/code.png) | ![codeLight](./screenshots/light/layouts/code.png)
 ![codeDoubleDark](./screenshots/dark/layouts/double-code.png) | ![codeDoubleLight](./screenshots/light/layouts/double-code.png)
 
-### Default `default`
+### Default : `default`
 
 Usage:
 
@@ -169,7 +135,7 @@ Dark                       | Light
 ![textWindowDark](./screenshots/dark/layouts/default.png) | ![textWindowLight](./screenshots/light/layouts/default.png)
 
 
-### End `end`
+### End : `end`
 
 Usage:
 
@@ -188,7 +154,7 @@ Dark                       | Light
 ![textWindowDark](./screenshots/dark/layouts/end.png) | ![textWindowLight](./screenshots/light/layouts/end.png)
 
 
-### Feedback `feedback`
+### Feedback : `feedback`
 
 #### Goal : 
 
@@ -210,7 +176,7 @@ Dark                       | Light
 :-------------------------:|:-------------------------:
 ![textWindowDark](./screenshots/dark/layouts/feedback.png) | ![textWindowLight](./screenshots/light/layouts/feedback.png)
 
-### Iframe-left or Iframe-right `iframe-left`
+### Iframe-left or Iframe-right : `iframe-left`
 
 #### Goal : 
 
@@ -231,7 +197,7 @@ Dark                       | Light
 ![textWindowDark](./screenshots/dark/layouts/iframe-left.png) | ![textWindowLight](./screenshots/light/layouts/iframe-left.png)
 
 
-### Image-left or Image-right `image-left`
+### Image-left or Image-right : `image-left`
 
 #### Goal : 
 
@@ -252,7 +218,7 @@ Dark                       | Light
 ![imageRightDark](./screenshots/dark/layouts/image-right.png) | ![imageRightLight](./screenshots/light/layouts/image-right.png)
 
 
-### Punch `punch`
+### Punch : `punch`
 
 #### Goal : 
 
@@ -274,7 +240,7 @@ Dark                       | Light
 ![imageRightDark](./screenshots/dark/layouts/punch.png) | ![imageRightLight](./screenshots/light/layouts/punch.png)
 
 
-### Quote `quote`
+### Quote : `quote`
 
 #### Goal : 
 
@@ -296,7 +262,7 @@ Dark                       | Light
 ![imageQuoteDark](./screenshots/dark/layouts/quote.png) | ![imageQuoteLight](./screenshots/light/layouts/quote.png)
 
 
-### ROTI `roti`
+### ROTI : `roti`
 
 #### Goal : 
 
@@ -325,38 +291,79 @@ Dark                       | Light
 
 This theme provides the following components:
 
-### Auto-favicon fancy link `fancy-link`
+### Text `<Text> ... </Text>`
 
-`FancyLink` Component will allow you to automatically add the favicon just aside your link.
+#### Goal :
 
-![auto-favicon](./screenshots/fancy-link-component.png)
+  `<Text>` Component will allow you to automatically format some text.
 
-To use it you just need to add it to your `examples.md` like this:
+#### Usage :
+
+To use it you just need to add it to your `slides` like this:
 
 ```markdown
-Say hi at <fancy-link href="https://twitter.com/alvarosabu">@alvarosabu</fancy-link>
+<Text>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</Text>
 ```
 
-### Console window `the-console`
+### Variant  `<Variant> ... </Variant>`
 
+#### Goal : 
 
-```ts
-<the-console>
-  <iframe height="300" style="width: 100%;" scrolling="no" title="Text Clock" src="https://codepen.io/searleb/embed/pvQaJB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/searleb/pen/pvQaJB">
-    Text Clock</a> by Bill Searle (<a href="https://codepen.io/searleb">@searleb</a>)
-    on <a href="https://codepen.io">CodePen</a>.
-  </iframe>
-</the-console>s
+`<Variant>` give you the ability to style the color of a text
+
+#### Usage : 
+
+To use it you just need to add it to your `slides` like this:
+
+```markdown
+<Variant type='highlight'>
+  Some text
+</Variant>
 ```
 
+The props `type` give access to the theme of the application. 
 
-> TODO:
+- `type` is one of `highlight` | `info` | `accent` | `warning`
 
-## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+### Card `<Card> ... </Card>`
+
+#### Goal : 
+
+`<Card>` give you the ability to encapsulate `Components/text/images` with a backgroud and a title relative to the theme of the slides
+
+#### Usage : 
+
+To use it you just need to add it to your `slides` like this:
+
+```markdown
+<Card type='highlight' title='My Title'>
+  Some text, components, images
+</Card>
+```
+
+The props `type` give access to the theme of the application. 
+
+- `type` is one of `highlight` | `info` | `accent` | `warning`
+- `title` is a `string`
+
+### Note `<Note> ... </Note>`
+
+#### Goal : 
+
+`<Note>` give you the ability to encapsulate `Components/text/images` with a backgroud and a title relative to the theme of the slides
+
+#### Usage : 
+
+To use it you just need to add it to your `slides` like this:
+
+```markdown
+<Note>
+  Some nicely formated notes
+</Note>
+```
+
+The props `type` give access to the theme of the application. 
+
+- `type` is one of `highlight` | `info` | `accent` | `warning`
+- `title` is a `string`
