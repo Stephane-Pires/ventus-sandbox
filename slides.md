@@ -8,6 +8,9 @@ monaco: true
 layout: cover
 src: ./slides/cover.md
 favicon: 'images/favicon.png'
+presentationTimer:
+   end: 1800
+   message: 'Should not exceed the timer : '
 fonts: 
   sans: 'Inter'
   serif: 'Inter'
