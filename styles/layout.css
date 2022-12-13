@@ -21,7 +21,7 @@ html.dark {
 }
 
 .slidev-toc-item {
-  @apply light:hover:text-brand-dark dark:hover:text-brand-logo transition ease-in-out duration-300
+  @apply light:hover:text-light-highlight dark:hover:text-brand-logo transition ease-in-out duration-300
 }
 
 
