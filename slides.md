@@ -5,6 +5,7 @@ presenterName: "Zephyr"
 dateFormat: "fr"
 lineNumbers: true
 monaco: true
+css: windicss
 layout: cover
 src: ./slides/cover.md
 favicon: 'images/favicon.png'
