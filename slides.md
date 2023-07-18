@@ -13,8 +13,8 @@ presentationTimer:
    end: 1800
    message: 'Should not exceed the timer : '
 fonts: 
-  sans: 'Inter'
-  serif: 'Inter'
+  sans: 'Open Sans'
+  serif: 'Merienda'
   mono: 'Fira Code'
 ---
 
@@ -57,7 +57,7 @@ src: ./slides/note.md
 ---
 layout: section
 src: ./slides/sections/1.md
-number: 1
+number: 4
 ---
 
 

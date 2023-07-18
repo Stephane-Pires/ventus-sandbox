@@ -1,5 +1,16 @@
 /* general css here */
 
+html {
+
+  h1 {
+    font-family: 'Merienda'
+  }
+
+  p, span, section {
+    font-family: 'Open Sans'
+     }
+}
+
 html:not(.dark) {
   /* light mode css here */
   @apply text-light-text-base;

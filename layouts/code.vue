@@ -5,4 +5,12 @@
         </div>
     </div>
   </template>
+
+  <style scoped>
+
+span {
+    font-family: 'Fira Code'!important;
+
+}
+</style>
   

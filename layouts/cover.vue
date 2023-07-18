@@ -15,6 +15,7 @@
 .slidev-layout.intro {
   h1 {
     @apply text-6xl leading-20 uppercase;
+    font-family: 'Merienda'
   }
   h1 + p {
     @apply opacity-60 -mt-4 text-2xl;
