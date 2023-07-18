@@ -25,7 +25,10 @@ export default defineWindiSetup(() => ({
           right: '#23272F',
         },
         title: '#76c893',
-        text: colors.white,
+        text: {
+          base: colors.white,
+          contrast: colors.black
+        } ,
         warning: '#ff7b00',
         accent: '#86EFAC',
         highlight: '#C0B2F8',
@@ -37,7 +40,10 @@ export default defineWindiSetup(() => ({
           right: '#d0ffb7'
         },
         title: '#0e2331',
-        text: colors.black,
+        text: {
+          base:colors.black,
+          contrast: colors.white,
+        },
         warning: '#d11149',
         accent: '#092e1c', 
         highlight: '#6610f2',

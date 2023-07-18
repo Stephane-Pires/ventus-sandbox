@@ -2,7 +2,7 @@
 
 html:not(.dark) {
   /* light mode css here */
-  @apply text-light-text;
+  @apply text-light-text-base;
 
   h1 {
     @apply text-brand-dark;
@@ -12,7 +12,7 @@ html:not(.dark) {
 
 html.dark {
   /* dark mode css here */
-  @apply text-dark-text;
+  @apply text-dark-text-base;
 
   h1 {
     @apply text-brand-logo;

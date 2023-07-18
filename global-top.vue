@@ -47,7 +47,7 @@ function wasRead () {
 
 <!-- <style scoped>
 header {
-  @apply font-mono  text-brand-darker dark:text-brand-light bg-brand-light dark:bg-light-text;
+  @apply font-mono  text-brand-darker dark:text-brand-light bg-brand-light dark:bg-light-text-base;
 }
 
 </style> -->
