@@ -57,7 +57,7 @@ src: ./slides/note.md
 ---
 layout: section
 src: ./slides/sections/1.md
-number: 4
+number: 1
 ---
 
 
