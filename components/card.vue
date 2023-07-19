@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps(
     {
-        type: 'accent' | 'highlight' | 'info' | 'warning',
+        type: 'accent' | 'info' | 'warning',
         title: String,
     }
         )
@@ -33,14 +33,6 @@ const props = defineProps(
     @apply text-2xl text-dark-warning dark:text-light-warning mb-4
   }
   
-  }
-
-    .highlight {
-  @apply border-dark-highlight border-5 bg-light-highlight p-6 bg-opacity-15 border-opacity-15;
-  
-  h1 {
-    @apply text-2xl text-dark-highlight dark:text-light-highlight mb-4
-  }
   }
 
     .info {

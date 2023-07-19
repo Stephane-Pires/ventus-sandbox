@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps(
     {
-        type: 'accent' | 'highlight' | 'info' | 'warning',
+        type: 'accent' | 'info' | 'warning',
     }
         )
 </script>
@@ -15,9 +15,6 @@ const props = defineProps(
 <style scoped>
 .warning {
     @apply text-light-warning dark:text-dark-warning;
-}
-.highlight {
-    @apply text-light-highlight dark:text-dark-highlight;
 }
 
 .accent {

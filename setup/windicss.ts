@@ -21,18 +21,18 @@ export default defineWindiSetup(() => ({
         },
       dark: {
         background: {
-          left: '#23272F',
-          right: '#23272F',
+          left: '#0f172a',
+          right: '#0f172a',
         },
         title: '#76c893',
         text: {
-          base: colors.white,
+          base: '#faedcd',
           contrast: colors.black
         } ,
-        warning: '#ff7b00',
+        warning: '#f81ce5',
         accent: '#86EFAC',
-        highlight: '#C0B2F8',
-        info: '#33BDEB'
+        highlight: '#faedcd',
+        info: '#93c5fd'
       },
       light: {
         background: {

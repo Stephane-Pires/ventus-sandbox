@@ -316,14 +316,14 @@ To use it you just need to add it to your `slides` like this:
 To use it you just need to add it to your `slides` like this:
 
 ```markdown
-<Variant type='highlight'>
+<Variant type='info'>
   Some text
 </Variant>
 ```
 
 The props `type` give access to the theme of the application. 
 
-- `type` is one of `highlight` | `info` | `accent` | `warning`
+- `type` is one of `info` | `accent` | `warning`
 
 
 ### Card `<Card> ... </Card>`
@@ -337,14 +337,14 @@ The props `type` give access to the theme of the application.
 To use it you just need to add it to your `slides` like this:
 
 ```markdown
-<Card type='highlight' title='My Title'>
+<Card type='info' title='My Title'>
   Some text, components, images
 </Card>
 ```
 
 The props `type` give access to the theme of the application. 
 
-- `type` is one of `highlight` | `info` | `accent` | `warning`
+- `type` is one of | `info` | `accent` | `warning`
 - `title` is a `string`
 
 ### Note `<Note> ... </Note>`
@@ -365,5 +365,5 @@ To use it you just need to add it to your `slides` like this:
 
 The props `type` give access to the theme of the application. 
 
-- `type` is one of `highlight` | `info` | `accent` | `warning`
+- `type` is one of | `info` | `accent` | `warning`
 - `title` is a `string`

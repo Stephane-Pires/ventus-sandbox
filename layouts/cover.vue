@@ -18,7 +18,7 @@
     font-family: 'Merienda'
   }
   h1 + p {
-    @apply opacity-60 -mt-4 text-2xl;
+    @apply -mt-4 text-2xl;
   }
 }
 </style>
